@@ -30,9 +30,9 @@ server.post("/create_preference", (req, res) => {
             },
         ],
         back_urls: {
-            success: "http://localhost:5173",
-            failure: "http://localhost:5173",
-            pending: "",
+            success: "https://bookfinder.store/pago-exitoso",
+            failure: "https://bookfinder.store/pago-fallido",
+            pending: "https://bookfinder.store/pago-pendiente",
         },
         auto_return: "approved",
     };
